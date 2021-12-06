@@ -33,6 +33,11 @@ const setupInput = function (conn) {
       connection.write("Move: right")
     }
 
+    if (data === 'r') {
+      console.log("Shaken Not Stirred")
+      connection.write("Say: Shaken Not Stirred")
+    }
+
   // your code here
 };
 
